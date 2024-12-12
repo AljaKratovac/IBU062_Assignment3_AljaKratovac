@@ -8,11 +8,11 @@
 2. Switch1 
 -Device Type: Switch
 -Device Module: ISR4331
-3. PC1
+3. PC0
 -Device Type: PC
 -Device Module: PC-PT
 -Assigned IP Address: 168.90.0.5
-4. PC2
+4. PC3
 -Device Type: PC
 -Device Module: PC-PT
 -Assigned IP Address: 168.90.0.3
@@ -34,7 +34,12 @@
 -Device Type: Server
 -Device Module: Server-PT
 -Assigned IP Address: 219.3.0.2/16
-10. PC
+10. PC2
 -Device Type: PC
 -Device Module: PC-PT
 -Assigned IP Address: 219.3.0.3/16
+### New PCs Added: 
+1. PC4 (connected to Switch1)
+-IP Address: 168.90.0.6/16
+2. PC5 (connected to Switch2)
+-IP Address: 210.3.0.4/16
