@@ -43,3 +43,14 @@
 -IP Address: 168.90.0.6/16
 2. PC5 (connected to Switch2)
 -IP Address: 210.3.0.4/16
+### DCHP Configuration Details: 
+The following steps will configure DHCP on the router. 
+Router# configure terminal 
+Router(config)# ip dhcp pool LAN_POOL
+Router(config-dhcp)# network 168.90.0.0 255.255.0.0
+Router(config-dhcp)# default-router 168.90.0.0
+Router(config-dhcp)# dns-server 8.8.8.8
+Router(config)# ip dhcp excluded-address 255.255.0.0
+Router(config)# ip dhcp-server
+Router# show ip dhcp binding
+
